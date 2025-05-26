@@ -236,7 +236,7 @@ export default function PersistentDrawerRight({ onApiKeySubmit, onFileSubmit }) 
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar position="absolute" open={open}>
+      <AppBar position="fixed" open={open}>
         <Toolbar>
           <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div">
             MMRAG
@@ -396,7 +396,7 @@ export default function PersistentDrawerRight({ onApiKeySubmit, onFileSubmit }) 
                 className={`px-4 py-2 rounded-lg text-white shadow ${
                   selectedImages.length === 0
                     ? "bg-gray-400 cursor-not-allowed"
-                    : "bg-blue-6 hover:bg-blue-7"
+                    : "bg-blue-600 hover:bg-blue-700 cursor-pointer"
                 }`}
               >
                 Process Selected Images
