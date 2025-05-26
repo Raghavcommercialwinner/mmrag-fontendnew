@@ -42,7 +42,7 @@ const Chatbox = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen w-full font-sans bg-gradient-to-br from-gray-100 via-gray-200 to-gray-300 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-300">
+    <div className="flex flex-col h-screen w-full font-sans bg-gradient-to-br from-gray-100 via-gray-200 to-gray-300 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-300">
       {/* Chat Display Area */}
       <div className="flex-grow px-6 py-8 overflow-y-auto space-y-4">
         <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white mb-4">Conversation</h2>
