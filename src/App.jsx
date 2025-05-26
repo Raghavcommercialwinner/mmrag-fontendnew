@@ -5,7 +5,7 @@ import Sidebar from '../components/Sidebar'
 const App = () => {
   return (
 
-    <div className='h-screen bg-black mt-0 flex gap-1'> 
+    <div className='h-screen bg-black mt-0'> 
         <Chatbox />
         <Sidebarnew />
     </div>
