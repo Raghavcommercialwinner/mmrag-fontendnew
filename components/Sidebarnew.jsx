@@ -236,7 +236,7 @@ export default function PersistentDrawerRight({ onApiKeySubmit, onFileSubmit }) 
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar position="fixed" open={open}>
+      <AppBar position="absolute" open={open}>
         <Toolbar>
           <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div">
             MMRAG
