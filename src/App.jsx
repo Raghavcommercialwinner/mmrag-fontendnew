@@ -6,11 +6,8 @@ const App = () => {
   return (
 
     <div className='h-screen bg-black mt-0 flex gap-1'> 
-       <div>
         <Sidebarnew />
-        <Chatbox />
-       </div> 
-        
+        <Chatbox />        
     </div>
     
   )
