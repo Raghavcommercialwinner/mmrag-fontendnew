@@ -8,7 +8,7 @@ const App = () => {
     <div className='h-screen bg-black mt-0'> 
       
       <div className='h-full flex gap-1'>
-        <sidebar />
+        <Sidebar />
         <Chatbox />
       </div>
         <Sidebarnew />
