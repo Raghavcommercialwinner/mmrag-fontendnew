@@ -19,7 +19,7 @@ const Sidebar = () => {
   };
 
   return (
-    <aside className="h-screen w-[250px] bg-gray-100 dark:bg-[#1e1e1e] border-r border-gray-300 dark:border-gray-700 flex flex-col shadow-lg">
+    <aside className="h-screen w-[250px] bg-gray-100 dark:bg-[#1e1e1e] border-r border-gray-300 dark:border-gray-700 flex flex-col shadow-lg pt-20">
       {/* Header */}
       <div className="flex items-center justify-between px-4 py-4 border-b border-gray-300 dark:border-gray-700">
         <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100">My Chats</h2>
